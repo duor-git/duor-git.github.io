@@ -2,6 +2,7 @@
 
 <head>
     <title>BIG HEALS ON ME</title>
+    <link rel="icon" href="./favicon.svg" />
     <style>
         body {
             background-color: #4d4d4d;
@@ -74,7 +75,6 @@
         if (audio) { audio.pause(); }
         audio = new Audio(`./${track}.mp3`);
         audio.volume = volume;
-        console.log(audio.volume)
         audio.play();
     }
 </script>
