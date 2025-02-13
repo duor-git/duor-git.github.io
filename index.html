@@ -1,0 +1,30 @@
+<html>
+
+<head></head>
+
+<body>
+    <table>
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td><button onclick="play(1)">big heals 1</button></td>
+                <td><button onclick="play(2)">huge heals</button></td>
+                <td><button onclick="play(3)">big heals 2</button></td>
+                <td><button onclick="play(4)">i'm deathwishing</button></td>
+                <td><button onclick="play(5)">big heals 3</button></td>
+                <td><button onclick="play(6)">you can't listen?</button></td>
+                <td><button onclick="play(7)">finish it</button></td>
+                <td><button onclick="play(8)">finiiiiiiiiiiiiish</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+<script>
+    const play = (track) => {
+        var audio = new Audio(`./${track}.mp3`);
+        audio.play();
+    }
+</script>
+
+</html>
