@@ -1,3 +1,9 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color: #313338;
     color: #939998;
@@ -9,6 +15,8 @@ body {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
+    min-height: calc(100% - 3rem);
 }
 
 h1 {
@@ -62,13 +70,14 @@ input {
     top: 2px;
 }
 
+
+
 .footer {
-    position: fixed;
-    bottom: 0;
     display: flex;
     width: 100%;
     justify-content: center;
     min-height: 2rem;
+    margin-top: 1rem;
 }
 
 a {
