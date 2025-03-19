@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         button.addEventListener('click', (ev) => {
             const track = ev.target.id;
             if (audio) { audio.pause(); }
-            audio = new Audio(`./${track}.mp3`);
+            audio = new Audio(`./clips/${track}.mp3`);
             audio.volume = volume;
             audio.play();
         });

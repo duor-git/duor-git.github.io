@@ -19,7 +19,7 @@ body {
     min-height: calc(100% - 3rem);
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     flex: 0 0 100%;
 }
