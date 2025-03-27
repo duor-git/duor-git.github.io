@@ -56,7 +56,7 @@ button {
     font-family: "Montserrat", sans-serif;
     flex: 0 0 calc(100% - 1rem);
     background-color: hsl(305 37.5% 12.55%);
-    border: 2px solid hsl(305 37.5% 12.55%);    
+    border: 2px solid hsl(305 37.5% 12.55%);
     border-radius: .5rem;
     cursor: pointer;
     user-select: none;
@@ -72,9 +72,12 @@ button {
     transition-duration: .25s;
 }
 
-button:hover {
-    background-color: hsl(305.5799999999999 37.39% 22.55%);
+@media(hover: hover) {
+    button:hover {
+        background-color: hsl(305.5799999999999 37.39% 22.55%);
+    }
 }
+
 
 input {
     cursor: pointer;
