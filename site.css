@@ -85,14 +85,6 @@ input {
     top: 2px;
 }
 
-.footer {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    min-height: 2rem;
-    margin-top: 1rem;
-}
-
 a {
     color: hsl(252.48000000000002 95.42% 74.31%);
 }
